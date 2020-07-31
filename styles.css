@@ -1,7 +1,7 @@
 /*----------BODY STYLES----------*/
 
 body {
-  font-family: 'Open Sans', "sans-serif";
+  font-family: "Raleway", "sans-serif";
   color: #c9fced;
   margin: 0;
   padding: 0;
@@ -226,7 +226,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #1b3b6f;
   width: 25%;
   margin: 0px 50px 0px 0px;
-  border-right: solid 1px #1c7293;
 }
 
 .categories a {
@@ -253,10 +252,6 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   width: 100%;
   min-height: 600px;
-}
-
-.articles a {
-  margin: 10px;
 }
 
 .article {
@@ -451,42 +446,39 @@ body::-webkit-scrollbar-thumb {
   color: white;
   font-size: 60px;
   padding: 10px;
-  transition: 0.5s;
 }
 
 .fab.fa-facebook:hover {
   color: white;
   font-size: 60px;
   transform: rotate(360deg);
-  transition: 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .fab.fa-twitter {
   color: white;
   font-size: 60px;
   padding: 10px;
-  transition: 0.5s;
 }
 
 .fab.fa-twitter:hover {
   color: white;
   font-size: 60px;
   transform: rotate(360deg);
-  transition: 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .fab.fa-instagram {
   color: white;
   font-size: 60px;
   padding: 10px;
-  transition: 0.5s;
 }
 
 .fab.fa-instagram:hover {
   color: white;
   font-size: 60px;
   transform: rotate(360deg);
-  transition: 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
 .copyright {
@@ -494,7 +486,6 @@ body::-webkit-scrollbar-thumb {
   width: 30%;
   display: flex;
   flex-direction: column;
-  border-left: solid 2px #1c7293;
 }
 
 .copyright h2 {
@@ -518,12 +509,11 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   text-align: center;
   padding: 30% 0px 30% 0px;
-  transition: 0.3s;
 }
 
 .contactA:hover {
   background-color: #065a82;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .contactH1 {

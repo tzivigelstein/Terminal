@@ -1,4 +1,4 @@
-# Terminal DEMO
+# Terminal
 
 es-
 
@@ -12,4 +12,8 @@ About Terminal
 
 Terminal is a web page designed aiming to share the health and medicine knowledge to the world. It will feature with thousands of articles to ease all kinds of doubts.
 
-github: https://github.com/Tzivi4 twitter: https://twitter.com/Tzivi4 instagram: https://www.instagram.com/gevi.digital/ facebook: https://www.facebook.com/Gevi.Designs/ gmail: gelsteintzivisantiago@gmail.com
+github: https://github.com/Tzivi4
+twitter: https://twitter.com/Tzivi4
+instagram: https://www.instagram.com/gevi.digital/
+facebook: https://www.facebook.com/Gevi.Designs/
+gmail: gelsteintzivisantiago@gmail.com
