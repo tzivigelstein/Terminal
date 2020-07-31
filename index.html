@@ -7,224 +7,101 @@
     <title>Terminal</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="assets/img/icon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;800&display=swap"
-        rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png">
     <script src="https://kit.fontawesome.com/542a0b5b09.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
-
-    <div class="content">
-
-        <!--Header--->
-
-        <div class="header">
-            <div class="logo">
-                <div class="contenedorTexto">
-                    <h1>Terminal | <span class="span"> Inicio</span></h1>
-                </div>
-                <div class="slogan">
-                    <h5>Redescubrí las ciencias médicas <br> Redescubrí los nuevos métodos de medicina</h5>
-                    <h1>Bienvenido a <span class="color">Terminal</span></h1>
-                </div>
-                <a class="boton" href="">
-                    <div class="contenedorArts">
-                        <h1>Artículos</h1>
-                    </div>
-                </a>
-            </div>
+    <div class="contHeader">
+        <div class="logo">
+            <a href="index.html"><h1>Terminal</h1></a>
         </div>
-
-        <!--Slider--->
-
-        <div class="slider">
-            <ul>
-                <li><img src="assets/img/slider/img11.png" alt=""></li>
-                <li><img src="assets/img/slider/img12.png" alt=""></li>
-                <li><img src="assets/img/slider/img13.png" alt=""></li>
-                <li><img src="assets/img/slider/img14.png" alt=""></li>
+        <nav class="navigation">
+            <ul class="menu">
+                <li><a id="inicio" href="index.html">Inicio</a></li>
+                <li><a id="arts" href="#"><p id="artsocultar">Artículos</p></a>
+                    <ul class="submenu">
+                        <li><a href="cardio.html">Cardiológicos</a></li>
+                        <li><a href="resp.html">Respiratorios</a></li>
+                        <li><a href="ets.html">ETS</a></li>
+                        <li><a href="can.html">Cáncer</a></li>
+                        <li><a href="more.html">Más</a></li>
+                    </ul>
+                </li>
+                <li id="aboutus"><a href="about.html">Acerca de</a></li>
+                <li id="cont"><a href="contact.html">Contacto</a></li>
             </ul>
-        </div>
-
-        <!--Categories & articles-->
-
-        <div class="arts_cats">
-
-            <div class="categories">
-
-                <a href="">
-                    <div class="cat">Respiratorios</div>
-                </a>
-                <a href="">
-                    <div class="cat">Cardiológicos</div>
-                </a>
-                <a href="">
-                    <div class="cat">ETS</div>
-                </a>
-                <a href="">
-                    <div class="cat">Cáncer</div>
-                </a>
-                <a href="">
-                    <div class="cat">Mentales</div>
-                </a>
-                <a href="">
-                    <div class="cat">Herpes</div>
-                </a>
-                <a href="">
-                    <div class="cat">Virosos</div>
-                </a>
-                <a href="">
-                    <div class="cat">Dermatitis</div>
-                </a>
-            </div>
-
-            <div class="articles">
-
-                <!--Article 1-->
-
-                <a href="">
-                    <div class="article">
-                        <div id="art1" class="sub">
-
-                        </div>
-                        <div class="infocat">
-                            Respiratorios
-                        </div>
-                        <div class="infotitulo">
-                            FQ
-                        </div>
-                    </div>
-                </a>
-
-                <!--Article 2-->
-
-                <a href="">
-                    <div class="article">
-                        <div id="art2" class="sub">
-
-                        </div>
-                        <div class="infocat">
-                            Virosos
-                        </div>
-                        <div class="infotitulo">
-                            Covid-19
-                        </div>
-                    </div>
-                </a>
-
-                <!--Article 3-->
-
-                <a href="">
-                    <div class="article">
-                        <div id="art3" class="sub">
-
-                        </div>
-                        <div class="infocat">
-                            ETS
-                        </div>
-                        <div class="infotitulo">
-                            Herpes
-                        </div>
-                    </div>
-                </a>
-
-                <!--Article 4-->
-
-                <a href="">
-                    <div class="article">
-                        <div id="art4" class="sub">
-
-                        </div>
-                        <div class="infocat">
-                            Dentro
-                        </div>
-                        <div class="infotitulo">
-                            de poco
-                        </div>
-                    </div>
-                </a>
-
-                <!--Article 5-->
-
-                <a href="">
-                    <div class="article">
-                        <div id="art5" class="sub">
-
-                        </div>
-                        <div class="infocat">
-                            Dentro
-                        </div>
-                        <div class="infotitulo">
-                            de poco
-                        </div>
-                    </div>
-                </a>
-
-                <!--Article 6-->
-
-                <a href="">
-                    <div class="article">
-                        <div id="art6" class="sub">
-
-                        </div>
-                        <div class="infocat">
-                            Dentro
-                        </div>
-                        <div class="infotitulo">
-                            de poco
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-        </div>
-
-        <!--Related video & info-section-->
-
-        <div class="videocontainer">
-            <h2>La cruz roja te necesita</h2>
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gLIk_Mn9chE" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-
-
-        <section id="description">
-            <h2>Sobre Terminal</h2>
-            <p>Terminal es una página web diseñada con el objetivo de compartir conocimientos de medicina y salud a todo
-                el mundo.
-                En un futuro contará con miles de artículos desarrollados para mitigar todo tipo de dudas.
-            </p>
-        </section>
-
-        <!--Footer--->
-
-        <footer class="prefooter">
-            <h1>Encontranos acá!</h1>
-        </footer>
-        <footer class="footer">
-            <ul class="social">
-                <li>
-                    <a href="https://www.instagram.com/gevi.digital/"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/Gevi.Designs/"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/Tzivi4"><i class="fab fa-twitter"></i></a>
-                </li>
-            </ul>
-            <div class="copyright">
-                <h2>Terminal</h2>
-                <h3>All Rights Reserved | 2020</h3>
-                <a class="contactA" href="">
-                    <h1 class="contactH1">Contáctame</h1>
-                </a>
-            </div>
-        </footer>
+        </nav>
     </div>
+    <div class="principal">
+        <div class="contPrincipal">
+            <div class="banner">
+                <h1 class="movil"><span class="ter">Terminal</span></h1>
+                <h1 class="desk">Bienvenido a <span class="ter">Terminal</span></h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a id="articulos2" class="menu" href="more.html">Artículos</a>
+            </div>
 
+            <div class="nota">
+                <div class="botonoculto">
+                    <br>
+                    <a id="articulos2" class="menu" href="more.html">Artículos</a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <p class="parag">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolor iure vel obcaecati
+                    dolorum
+                    veritatis quibusdam eligendi fuga odio optio, tempora dolore amet ratione beatae commodi magni
+                    cumque
+                    accusantium nostrum perspiciatis nam! Facilis vitae, voluptatem tempore porro nam reiciendis a minus
+                    reprehenderit asperiores debitis facere harum dolorem nisi laudantium eius explicabo rem hic vero
+                    soluta
+                    neque! Aliquam fugiat, vitae corporis quia doloremque ad perferendis id aperiam enim distinctio
+                    praesentium veritatis. Excepturi consequatur, incidunt porro quae corrupti sapiente illum numquam,
+                    explicabo, quidem nihil in vero esse aliquam quisquam qui. Dicta aspernatur quo soluta dolor quos,
+                    amet
+                    adipisci id molestias aperiam tempore magnam perspiciatis dolores et esse quae beatae, harum,
+                    inventore
+                    asperiores voluptatem ipsa at. Fugit recusandae ipsam sint hic voluptatem magni quasi dolores
+                    excepturi
+                    quos qui, quaerat temporibus unde amet in aperiam fuga, dolorum est dicta?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsum dolores molestias
+                    praesentium
+                    sapiente maxime. Adipisci similique quas nostrum nesciunt sed porro voluptates odit, ipsum vero
+                    consectetur cupiditate unde sint ad possimus inventore neque facilis earum sequi? Velit repellendus
+                    cum,
+                    voluptatibus voluptate amet corporis possimus officiis in! Culpa modi eveniet sed quae aliquam
+                    aperiam
+                    delectus blanditiis eligendi impedit illum, iusto recusandae. Iure ipsa reprehenderit dicta vero a
+                    dolorum doloribus molestias commodi distinctio enim dolores magnam rerum, blanditiis eos totam quod
+                    incidunt nisi illo consequuntur omnis culpa eaque nesciunt. Placeat enim maiores, magnam expedita
+                    blanditiis numquam voluptates!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="prefooter">
+            <li><a href="contact.html">Contáctame</a></li>
+            <ul class="redes">
+                <li id="in"><a href="https://www.instagram.com/gevi.digital/"><img src="insta.png" height="50px"
+                            width="50px" alt=""></a></li>
+                <li id="fa"><a href="https://www.facebook.com/Gevi.Designs/"><img src="face.png" height="50px"
+                            width="50px" alt=""></a></li>
+                <li id="tw"><a href="https://twitter.com/Tzivi4"><img src="tw.png" height="50px" width="50px"
+                            alt=""></a></li>
+            </ul>
+        </div>
+        <div class="contfooter">
+            <li>CopyRight 2019-2020 Terminal | All Rights Reserved</li>
+        </div>
+    </div>
 </body>
 
 </html>
