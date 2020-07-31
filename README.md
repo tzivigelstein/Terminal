@@ -1,4 +1,4 @@
-# Terminal
+# Terminal DEMO
 
 es-
 
